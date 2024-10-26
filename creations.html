@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page displaying information about paracord projects.">
+    <meta name="author" content="Jackson T. Chapman">
+    <title>WDD 131 - Dynamic Web Fundamentals - Paracord Creations</title>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/creations.js" defer></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/creations.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/pc-logo.jpg" alt="Paracord creations logo." id="logo"></a>
+
+        <button type ="button" id="hamburger-button" aria-label="Open navigation menu"></button>
+        
+        <nav class="navigation">
+            <a href="creations.html">All projects</a>
+            <a href="#" id="sort-beginner">Beginner projects</a>
+            <a href="#" id="sort-intermediate">Intermediate projects</a>
+            <a href="#" id="sort-advanced">Advanced projects</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Parachute cord crafts to make.</h1>
+        <h2 id="filtered-title">All projects</h2>
+        <div id="Projects"></div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
