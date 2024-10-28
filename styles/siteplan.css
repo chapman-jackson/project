@@ -19,11 +19,11 @@ main{
     background-color: #d3d3d3;
 }
 
-#titleFont{
+h1, h2, h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#fontExample{
+p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
